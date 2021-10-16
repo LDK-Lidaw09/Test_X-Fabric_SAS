@@ -48,7 +48,6 @@ const Recap = () => {
           <input
             type="text"
             name=""
-            required
             placeholder="name"
             value={fabric.name}
             {...register('name')}
@@ -58,7 +57,6 @@ const Recap = () => {
           <input
             type="text"
             name=""
-            required
             placeholder="prenoms"
             value={fabric.firstname}
             {...register('firstname')}
@@ -79,7 +77,6 @@ const Recap = () => {
           <input
             type="text"
             name=""
-            required
             placeholder="Adresse Email"
             value={fabric.email}
             {...register('email')}

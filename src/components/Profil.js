@@ -63,7 +63,6 @@ const Profil = () => {
           <input
             type="text"
             name=""
-       
             placeholder="Téléphone"
             {...register('sas.telephone')}
 
